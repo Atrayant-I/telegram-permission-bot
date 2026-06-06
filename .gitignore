@@ -1,0 +1,17 @@
+# Sensitive credentials
+.env
+
+# Telethon session files (contain auth tokens)
+*.session
+*.session-journal
+
+# Processed user IDs (personal data)
+processed/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
